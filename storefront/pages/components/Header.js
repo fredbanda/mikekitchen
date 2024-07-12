@@ -43,7 +43,7 @@ export default function Header() {
             />
             <span className="sm:block hidden text-3xl text-gray-600 font-bold">
               {" "}
-              Mike's Kitchen Cabinets{" "}
+              Mike&apos; Kitchen Cabinets{" "}
             </span>
           </Link>
 
