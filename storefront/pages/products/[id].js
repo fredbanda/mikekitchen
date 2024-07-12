@@ -90,13 +90,12 @@ export default function ProductPage({ product }) {
               </p>
             </div> */}
             <div className="w-full">
-              <button
+              <Link
+                href="/contact"
                 className="bg-primary text-white py-2 px-4 mt-4 rounded-md hover:bg-primary-dark w-full"
-                onClick={() => {addProduct(product._id);
-                  toast.success('Item added to cart!!')}}
               >
                 Contact For A Quote
-              </button>
+              </Link>
             </div>
 
 
