@@ -2,7 +2,6 @@ import { CartContext } from "@/lib/CartContext";
 import { mongooseConnect } from "@/lib/mongoose";
 import { Product } from "@/models/Product";
 import { useContext } from "react";
-import toast from "react-hot-toast";
 
 const formatPrice = (price) => {
   return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
