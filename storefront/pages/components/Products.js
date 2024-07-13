@@ -48,10 +48,10 @@ export default function Products({ products }) {
 
                         <Link
                            href={"/products/" + product._id}
-                          class=" w-full flex items-center divide-x rounded-lg border border-primary bg-primary text-center text-md font-medium text-secondary-700 shadow-sm hover:bg-gray-100"
+                          class=" w-full flex items-center divide-x rounded-lg border border-primary bg-primary text-center text-md font-medium text-white shadow-sm hover:bg-gray-100"
                         >
                           <div class="flex items-center space-x-2 py-2.5 px-3">
-                            <span>Click For Details</span>
+                            <span className="text-white">Click For Details</span>
                           </div>
                           {/* <div class="py-2.5 px-3">18</div> */}
                         </Link>
