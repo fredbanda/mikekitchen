@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
+import logo from "../public/logo.jpg";
 
 const formatPrice = (price) => {
   return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -262,6 +263,7 @@ export default function Home() {
         className={`flex min-h-screen flex-col items-center justify-center p-5 text-center `}
       >
         <div className="max-w-xl lg:max-w-3xl">
+          <img src={logo} alt="Mike's Kitchen Logo" />
           <h1 className="mt-6 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
             Welcome to Mike&apos;s Kitchen Cabinet Dashboard
           </h1>
