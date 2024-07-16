@@ -25,7 +25,7 @@ export default function Home() {
         <p className="mt-4 leading-relaxed text-gray-500 max-w-sm mx-auto">
           From here you will be able to add or delete products from your
           website. This site is only accessible to admin only. Do not share your
-          login details! Please Login by clicking the link below.
+          login details! Please Login by clicking the link below now.
         </p>
         <div className="col-span-6 sm:flex sm:items-center sm:gap-4 my-4 flex items-center justify-center">
           <Link
