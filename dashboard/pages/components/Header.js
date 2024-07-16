@@ -162,7 +162,7 @@ export default function Header() {
                           <Link
                             onClick={toggleMobileNav}
                             className={pathname === "/" ? active : inActive}
-                            href="/"
+                            href="/dashboard"
                           >
                             Dashboard
                           </Link>
