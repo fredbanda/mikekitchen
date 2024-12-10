@@ -83,25 +83,22 @@ export default function ProductPage({ product }) {
               </div>
             </div>
 
-            {/* <div className="mt-4 flex justify-between items-center">
+             <div className="mt-4 flex justify-between items-center">
               <h2 className="text-xl font-semibold text-gray-900">Price</h2>
               <p className="mt-2 text-primary font-semibold text-lg">
                 ZAR {formatPrice(product.price)}
               </p>
-            </div> */}
-            <div className="w-full">
+            </div> 
+            <div className="w-full mt-6">
               <Link
                 href="/contact"
                 className="bg-primary text-white py-2 px-4 mt-4 rounded-md hover:bg-primary-dark w-full"
               >
-                Contact For A Quote
+                Buy Now
               </Link>
-            </div>
-
-
-
-
+            </div> 
           </div>
+          
         </div>
       </section>
     );

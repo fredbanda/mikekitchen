@@ -4,7 +4,7 @@ import { CartContext } from "../../lib/CartContext";
 import { useRouter } from "next/router";
 import { signOut, useSession } from "next-auth/react";
 import Image from "next/image";
-import logo from "../../public/logo.jpg";
+import logo from "../../public/logo.png";
 
 export default function Header() {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
@@ -36,14 +36,14 @@ export default function Header() {
           >
             <Image
               src={logo}
-              alt="Mike's Cupboards Logo"
+              alt="Tech Slayer Logo"
               width={50}
               height={50}
               className="h-auto"
             />
             <span className="sm:block hidden text-3xl text-gray-600 font-bold">
               {" "}
-              Mike&apos; Kitchen Cabinets{" "}
+              Tech&apos;s Slayer{" "}
             </span>
           </Link>
 
@@ -80,7 +80,7 @@ export default function Header() {
                     href="/categories"
                   >
                     <option value="0">Categories</option>
-                    <option value="1">Kitchen</option>
+                    <option value="1">Laptops</option>
                   </select>
                 </li>
               </ul>
